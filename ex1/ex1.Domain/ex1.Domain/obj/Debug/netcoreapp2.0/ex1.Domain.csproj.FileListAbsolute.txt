@@ -1,0 +1,10 @@
+D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\bin\Debug\netcoreapp2.0\ex1.Domain.deps.json
+D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\bin\Debug\netcoreapp2.0\ex1.Domain.dll
+D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\bin\Debug\netcoreapp2.0\ex1.Domain.pdb
+D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\obj\Debug\netcoreapp2.0\ex1.Domain.csproj.CoreCompileInputs.cache
+D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\obj\Debug\netcoreapp2.0\ex1.Domain.AssemblyInfoInputs.cache
+D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\obj\Debug\netcoreapp2.0\ex1.Domain.AssemblyInfo.cs
+D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\obj\Debug\netcoreapp2.0\ex1.Domain.dll
+D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\obj\Debug\netcoreapp2.0\ex1.Domain.pdb
+D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
+D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml
