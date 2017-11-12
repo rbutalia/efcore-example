@@ -3,16 +3,30 @@ using ex1.Domain;
 using ex1.Domain.Mappings;
 using ex1.Domain.Relationships;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Console;
 
 namespace ef1.Data
 {
     public class Ex1DataContext: DbContext
     {
         private const string connectionString = "Server=.\\SQLEXPRESS; Database=ex1_master; Integrated Security=True;";
+        public static readonly LoggerFactory MyLoggerFactory = new LoggerFactory(new[] 
+                                                                    {
+                                                                        new ConsoleLoggerProvider((_, __) => true, true)
+                                                                    });
+
+                                                             //= new LoggerFactory(new[]
+                                                             //       {
+                                                             //           new ConsoleLoggerProvider((category, level)
+                                                             //               => category == DbLoggerCategory.Database.Command.Name
+                                                             //                  && level == LogLevel.Information, true)
+                                                             //       });
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.UseLoggerFactory(MyLoggerFactory)
+                          .UseSqlServer(connectionString);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

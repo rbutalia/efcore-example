@@ -8,3 +8,4 @@ D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\obj\Debug\netcoreapp2.0\ex1.Doma
 D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\obj\Debug\netcoreapp2.0\ex1.Domain.pdb
 D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
 D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml
+D:\code\github\efcore\ex1\ex1.Domain\ex1.Domain\obj\Debug\netcoreapp2.0\ex1.Domain.csprojResolveAssemblyReference.cache
