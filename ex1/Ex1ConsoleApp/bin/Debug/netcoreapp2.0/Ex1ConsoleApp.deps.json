@@ -10,7 +10,7 @@
         "dependencies": {
           "Microsoft.AspNetCore": "2.0.0",
           "Microsoft.Extensions.Logging": "2.0.0",
-          "ef1.Data": "1.0.0",
+          "ex1.Data": "1.0.0",
           "ex1.Domain": "1.0.0"
         },
         "runtime": {
@@ -1119,7 +1119,7 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "ef1.Data/1.0.0": {
+      "ex1.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "2.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.0",
@@ -1128,7 +1128,7 @@
           "ex1.Domain": "1.0.0"
         },
         "runtime": {
-          "ef1.Data.dll": {}
+          "ex1.Data.dll": {}
         }
       },
       "ex1.Domain/1.0.0": {
@@ -1970,7 +1970,7 @@
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     },
-    "ef1.Data/1.0.0": {
+    "ex1.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

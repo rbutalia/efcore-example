@@ -18,9 +18,7 @@ D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\bin\Debug\netcoreapp
 D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\bin\Debug\netcoreapp2.0\Ex1ConsoleApp.runtimeconfig.dev.json
 D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\bin\Debug\netcoreapp2.0\Ex1ConsoleApp.dll
 D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\bin\Debug\netcoreapp2.0\Ex1ConsoleApp.pdb
-D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\bin\Debug\netcoreapp2.0\ef1.Data.dll
 D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\bin\Debug\netcoreapp2.0\ex1.Domain.dll
-D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\bin\Debug\netcoreapp2.0\ef1.Data.pdb
 D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\bin\Debug\netcoreapp2.0\ex1.Domain.pdb
 D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\obj\Debug\netcoreapp2.0\Ex1ConsoleApp.csprojResolveAssemblyReference.cache
 D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\obj\Debug\netcoreapp2.0\Ex1ConsoleApp.csproj.CoreCompileInputs.cache
@@ -28,3 +26,5 @@ D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\obj\Debug\netcoreapp
 D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\obj\Debug\netcoreapp2.0\Ex1ConsoleApp.AssemblyInfo.cs
 D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\obj\Debug\netcoreapp2.0\Ex1ConsoleApp.dll
 D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\obj\Debug\netcoreapp2.0\Ex1ConsoleApp.pdb
+D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\bin\Debug\netcoreapp2.0\ex1.Data.dll
+D:\code\github\efcore\Example 1\implement\ex1\Ex1ConsoleApp\bin\Debug\netcoreapp2.0\ex1.Data.pdb

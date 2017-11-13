@@ -3443,9 +3443,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\ef1.Data.csproj",
-      "projectName": "ef1.Data",
-      "projectPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\ef1.Data.csproj",
+      "projectUniqueName": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\ex1.Data.csproj",
+      "projectName": "ex1.Data",
+      "projectPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\ex1.Data.csproj",
       "packagesPath": "C:\\Users\\randeep\\.nuget\\packages\\",
       "outputPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,32 +1,35 @@
 ﻿
+using System;
 using ex1.Domain;
+using System.Linq;
 using ex1.Domain.Mappings;
 using ex1.Domain.Relationships;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Console;
 
-namespace ef1.Data
+namespace ex1.Data
 {
     public class Ex1DataContext: DbContext
     {
-        private const string connectionString = "Server=.\\SQLEXPRESS; Database=ex1_master; Integrated Security=True;";
         public static readonly LoggerFactory MyLoggerFactory = new LoggerFactory(new[] 
                                                                     {
                                                                         new ConsoleLoggerProvider((_, __) => true, true)
                                                                     });
 
-                                                             //= new LoggerFactory(new[]
-                                                             //       {
-                                                             //           new ConsoleLoggerProvider((category, level)
-                                                             //               => category == DbLoggerCategory.Database.Command.Name
-                                                             //                  && level == LogLevel.Information, true)
-                                                             //       });
+        //= new LoggerFactory(new[]
+        //       {
+        //           new ConsoleLoggerProvider((category, level)
+        //               => category == DbLoggerCategory.Database.Command.Name
+        //                  && level == LogLevel.Information, true)
+        //       });
+
+        public Ex1DataContext(DbContextOptions<Ex1DataContext> options)  :base(options) { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseLoggerFactory(MyLoggerFactory)
-                          .UseSqlServer(connectionString);
+            optionsBuilder.UseLoggerFactory(MyLoggerFactory);
+            //              .UseSqlServer(connectionString);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -35,6 +38,16 @@ namespace ef1.Data
             modelBuilder.ApplyConfiguration<ProductCategory>(new ProductCategoryConfig());
             //modelBuilder.Entity<Customer>().Property(c => c.Company).IsRequired();
             base.OnModelCreating(modelBuilder);
+        }
+
+        public override int SaveChanges()
+        {
+            foreach (var entry in ChangeTracker.Entries().Where(e => e.State == EntityState.Added ||
+                         e.State == EntityState.Modified))
+            {
+                entry.Property("ModifiedDate").CurrentValue = DateTime.Now;
+            }
+            return base.SaveChanges();
         }
 
         public DbSet<Category> Categories { get; set; }

@@ -17,21 +17,21 @@ namespace Ex1WebApp
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 
-                .ConfigureAppConfiguration((hostingContext, config) =>
-                {
-                    var env = hostingContext.HostingEnvironment;
-                    config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-                          .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true);
-                    config.AddEnvironmentVariables();
-                })
-                .ConfigureLogging((hostingContext, logging) =>
-                {
-                     logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
-                    //logging.AddConfiguration("appsettings.json", optional: true, reloadOnChange: true)
-                     //      .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true);
-                     logging.AddConsole();
-                    //logging.AddDebug();
-                })
+                //.ConfigureAppConfiguration((hostingContext, config) =>
+                //{
+                //    var env = hostingContext.HostingEnvironment;
+                //    config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                //          .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true);
+                //    config.AddEnvironmentVariables();
+                //})
+                //.ConfigureLogging((hostingContext, logging) =>
+                //{
+                //     logging.AddConfiguration(hostingContext.Configuration.GetSection("Logging"));
+                //    //logging.AddConfiguration("appsettings.json", optional: true, reloadOnChange: true)
+                //     //      .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true, reloadOnChange: true);
+                //     logging.AddConsole();
+                //    //logging.AddDebug();
+                //})
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .UseApplicationInsights()

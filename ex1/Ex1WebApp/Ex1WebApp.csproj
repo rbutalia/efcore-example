@@ -12,9 +12,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.0" />
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ef1.Data\ex1.Data.csproj" />
+    <ProjectReference Include="..\ex1.Domain\ex1.Domain\ex1.Domain.csproj" />
+  </ItemGroup>
 </Project>

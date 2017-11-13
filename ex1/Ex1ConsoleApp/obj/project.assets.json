@@ -1908,7 +1908,7 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
-      "ef1.Data/1.0.0": {
+      "ex1.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
         "dependencies": {
@@ -1919,10 +1919,10 @@
           "ex1.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/ef1.Data.dll": {}
+          "bin/placeholder/ex1.Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ef1.Data.dll": {}
+          "bin/placeholder/ex1.Data.dll": {}
         }
       },
       "ex1.Domain/1.0.0": {
@@ -6102,10 +6102,10 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
-    "ef1.Data/1.0.0": {
+    "ex1.Data/1.0.0": {
       "type": "project",
-      "path": "../ef1.Data/ef1.Data.csproj",
-      "msbuildProject": "../ef1.Data/ef1.Data.csproj"
+      "path": "../ef1.Data/ex1.Data.csproj",
+      "msbuildProject": "../ef1.Data/ex1.Data.csproj"
     },
     "ex1.Domain/1.0.0": {
       "type": "project",
@@ -6118,7 +6118,7 @@
       "Microsoft.AspNetCore >= 2.0.0",
       "Microsoft.Extensions.Logging >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "ef1.Data >= 1.0.0",
+      "ex1.Data >= 1.0.0",
       "ex1.Domain >= 1.0.0"
     ]
   },
@@ -6155,11 +6155,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
+            "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\ex1.Data.csproj": {
+              "projectPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\ex1.Data.csproj"
+            },
             "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ex1.Domain\\ex1.Domain\\ex1.Domain.csproj": {
               "projectPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ex1.Domain\\ex1.Domain\\ex1.Domain.csproj"
-            },
-            "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\ef1.Data.csproj": {
-              "projectPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\ef1.Data.csproj"
             }
           }
         }
