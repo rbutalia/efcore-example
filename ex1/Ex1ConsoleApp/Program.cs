@@ -9,7 +9,7 @@ namespace Ex1ConsoleApp
         private static Ex1DataContext _context = new Ex1DataContext();
         static void Main(string[] args)
         {
-            InsertCompany();
+            //InsertCompany();
             Console.WriteLine("Hello World!");
         }
 

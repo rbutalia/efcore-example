@@ -6552,11 +6552,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\code\\github\\efcore\\ex1\\Ex1WebApp\\Ex1WebApp.csproj",
+      "projectUniqueName": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\Ex1WebApp\\Ex1WebApp.csproj",
       "projectName": "Ex1WebApp",
-      "projectPath": "D:\\code\\github\\efcore\\ex1\\Ex1WebApp\\Ex1WebApp.csproj",
+      "projectPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\Ex1WebApp\\Ex1WebApp.csproj",
       "packagesPath": "C:\\Users\\randeep\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\github\\efcore\\ex1\\Ex1WebApp\\obj\\",
+      "outputPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\Ex1WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

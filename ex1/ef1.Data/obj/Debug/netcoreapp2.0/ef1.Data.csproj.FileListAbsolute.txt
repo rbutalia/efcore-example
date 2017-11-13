@@ -9,3 +9,14 @@ D:\code\github\efcore\ex1\ef1.Data\bin\Debug\netcoreapp2.0\ex1.Domain.pdb
 D:\code\github\efcore\ex1\ef1.Data\bin\Debug\netcoreapp2.0\ef1.Data.pdb
 D:\code\github\efcore\ex1\ef1.Data\obj\Debug\netcoreapp2.0\ef1.Data.dll
 D:\code\github\efcore\ex1\ef1.Data\obj\Debug\netcoreapp2.0\ef1.Data.pdb
+D:\code\github\efcore\Example 1\implement\ex1\ef1.Data\bin\Debug\netcoreapp2.0\ef1.Data.deps.json
+D:\code\github\efcore\Example 1\implement\ex1\ef1.Data\bin\Debug\netcoreapp2.0\ef1.Data.dll
+D:\code\github\efcore\Example 1\implement\ex1\ef1.Data\bin\Debug\netcoreapp2.0\ef1.Data.pdb
+D:\code\github\efcore\Example 1\implement\ex1\ef1.Data\bin\Debug\netcoreapp2.0\ex1.Domain.dll
+D:\code\github\efcore\Example 1\implement\ex1\ef1.Data\bin\Debug\netcoreapp2.0\ex1.Domain.pdb
+D:\code\github\efcore\Example 1\implement\ex1\ef1.Data\obj\Debug\netcoreapp2.0\ef1.Data.csprojResolveAssemblyReference.cache
+D:\code\github\efcore\Example 1\implement\ex1\ef1.Data\obj\Debug\netcoreapp2.0\ef1.Data.csproj.CoreCompileInputs.cache
+D:\code\github\efcore\Example 1\implement\ex1\ef1.Data\obj\Debug\netcoreapp2.0\ef1.Data.AssemblyInfoInputs.cache
+D:\code\github\efcore\Example 1\implement\ex1\ef1.Data\obj\Debug\netcoreapp2.0\ef1.Data.AssemblyInfo.cs
+D:\code\github\efcore\Example 1\implement\ex1\ef1.Data\obj\Debug\netcoreapp2.0\ef1.Data.dll
+D:\code\github\efcore\Example 1\implement\ex1\ef1.Data\obj\Debug\netcoreapp2.0\ef1.Data.pdb

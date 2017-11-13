@@ -9,3 +9,13 @@ D:\code\github\efcore\ex1\Ex1WebApp\bin\Debug\netcoreapp2.0\Ex1WebApp.dll
 D:\code\github\efcore\ex1\Ex1WebApp\bin\Debug\netcoreapp2.0\Ex1WebApp.pdb
 D:\code\github\efcore\ex1\Ex1WebApp\obj\Debug\netcoreapp2.0\Ex1WebApp.dll
 D:\code\github\efcore\ex1\Ex1WebApp\obj\Debug\netcoreapp2.0\Ex1WebApp.pdb
+D:\code\github\efcore\Example 1\implement\ex1\Ex1WebApp\bin\Debug\netcoreapp2.0\Ex1WebApp.deps.json
+D:\code\github\efcore\Example 1\implement\ex1\Ex1WebApp\bin\Debug\netcoreapp2.0\Ex1WebApp.runtimeconfig.json
+D:\code\github\efcore\Example 1\implement\ex1\Ex1WebApp\bin\Debug\netcoreapp2.0\Ex1WebApp.runtimeconfig.dev.json
+D:\code\github\efcore\Example 1\implement\ex1\Ex1WebApp\bin\Debug\netcoreapp2.0\Ex1WebApp.dll
+D:\code\github\efcore\Example 1\implement\ex1\Ex1WebApp\bin\Debug\netcoreapp2.0\Ex1WebApp.pdb
+D:\code\github\efcore\Example 1\implement\ex1\Ex1WebApp\obj\Debug\netcoreapp2.0\Ex1WebApp.csproj.CoreCompileInputs.cache
+D:\code\github\efcore\Example 1\implement\ex1\Ex1WebApp\obj\Debug\netcoreapp2.0\Ex1WebApp.AssemblyInfoInputs.cache
+D:\code\github\efcore\Example 1\implement\ex1\Ex1WebApp\obj\Debug\netcoreapp2.0\Ex1WebApp.AssemblyInfo.cs
+D:\code\github\efcore\Example 1\implement\ex1\Ex1WebApp\obj\Debug\netcoreapp2.0\Ex1WebApp.dll
+D:\code\github\efcore\Example 1\implement\ex1\Ex1WebApp\obj\Debug\netcoreapp2.0\Ex1WebApp.pdb

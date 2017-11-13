@@ -6132,11 +6132,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\code\\github\\efcore\\ex1\\Ex1ConsoleApp\\Ex1ConsoleApp.csproj",
+      "projectUniqueName": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\Ex1ConsoleApp\\Ex1ConsoleApp.csproj",
       "projectName": "Ex1ConsoleApp",
-      "projectPath": "D:\\code\\github\\efcore\\ex1\\Ex1ConsoleApp\\Ex1ConsoleApp.csproj",
+      "projectPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\Ex1ConsoleApp\\Ex1ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\randeep\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\github\\efcore\\ex1\\Ex1ConsoleApp\\obj\\",
+      "outputPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\Ex1ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6155,11 +6155,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\code\\github\\efcore\\ex1\\ex1.Domain\\ex1.Domain\\ex1.Domain.csproj": {
-              "projectPath": "D:\\code\\github\\efcore\\ex1\\ex1.Domain\\ex1.Domain\\ex1.Domain.csproj"
+            "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ex1.Domain\\ex1.Domain\\ex1.Domain.csproj": {
+              "projectPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ex1.Domain\\ex1.Domain\\ex1.Domain.csproj"
             },
-            "D:\\code\\github\\efcore\\ex1\\ef1.Data\\ef1.Data.csproj": {
-              "projectPath": "D:\\code\\github\\efcore\\ex1\\ef1.Data\\ef1.Data.csproj"
+            "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\ef1.Data.csproj": {
+              "projectPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\ef1.Data.csproj"
             }
           }
         }
