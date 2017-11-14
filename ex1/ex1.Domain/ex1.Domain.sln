@@ -5,11 +5,13 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex1.Domain", "ex1.Domain\ex1.Domain.csproj", "{66F1C80F-C11F-48D8-B66C-29F50F8FAA8F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex1.Data", "..\ef1.Data\ex1.Data.csproj", "{7395D645-6310-4AD4-BE3B-0B2D82B97323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex1.Data", "..\ex1.Data\ex1.Data.csproj", "{7395D645-6310-4AD4-BE3B-0B2D82B97323}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex1WebApp", "..\Ex1WebApp\Ex1WebApp.csproj", "{A38B5718-7A12-44C3-BDC5-6DD1EE7DD2BC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex1ConsoleApp", "..\Ex1ConsoleApp\Ex1ConsoleApp.csproj", "{703F25C4-0737-41AD-B269-68783D29C64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex1.Tests", "..\ex1.Tests\ex1.Tests.csproj", "{728EAB15-65EF-4350-AC51-B1B3882BEE49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{703F25C4-0737-41AD-B269-68783D29C64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{703F25C4-0737-41AD-B269-68783D29C64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{703F25C4-0737-41AD-B269-68783D29C64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728EAB15-65EF-4350-AC51-B1B3882BEE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728EAB15-65EF-4350-AC51-B1B3882BEE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728EAB15-65EF-4350-AC51-B1B3882BEE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728EAB15-65EF-4350-AC51-B1B3882BEE49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

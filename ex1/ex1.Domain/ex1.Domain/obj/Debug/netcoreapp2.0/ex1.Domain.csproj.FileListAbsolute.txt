@@ -19,4 +19,3 @@ D:\code\github\efcore\Example 1\implement\ex1\ex1.Domain\ex1.Domain\obj\Debug\ne
 D:\code\github\efcore\Example 1\implement\ex1\ex1.Domain\ex1.Domain\obj\Debug\netcoreapp2.0\ex1.Domain.AssemblyInfo.cs
 D:\code\github\efcore\Example 1\implement\ex1\ex1.Domain\ex1.Domain\obj\Debug\netcoreapp2.0\ex1.Domain.dll
 D:\code\github\efcore\Example 1\implement\ex1\ex1.Domain\ex1.Domain\obj\Debug\netcoreapp2.0\ex1.Domain.pdb
-D:\code\github\efcore\Example 1\implement\ex1\ex1.Domain\ex1.Domain\obj\Debug\netcoreapp2.0\ex1.Domain.csprojResolveAssemblyReference.cache

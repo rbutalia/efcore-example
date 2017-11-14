@@ -23,11 +23,15 @@ namespace ex1.Data
         //               => category == DbLoggerCategory.Database.Command.Name
         //                  && level == LogLevel.Information, true)
         //       });
-
+        public Ex1DataContext() { }
         public Ex1DataContext(DbContextOptions<Ex1DataContext> options)  :base(options) { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            if (!optionsBuilder.IsConfigured)
+            {
+
+            }
             optionsBuilder.UseLoggerFactory(MyLoggerFactory);
             //              .UseSqlServer(connectionString);
         }

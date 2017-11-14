@@ -9250,8 +9250,8 @@
     },
     "ex1.Data/1.0.0": {
       "type": "project",
-      "path": "../ef1.Data/ex1.Data.csproj",
-      "msbuildProject": "../ef1.Data/ex1.Data.csproj"
+      "path": "../ex1.Data/ex1.Data.csproj",
+      "msbuildProject": "../ex1.Data/ex1.Data.csproj"
     },
     "ex1.Domain/1.0.0": {
       "type": "project",
@@ -9305,11 +9305,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\ex1.Data.csproj": {
-              "projectPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ef1.Data\\ex1.Data.csproj"
-            },
             "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ex1.Domain\\ex1.Domain\\ex1.Domain.csproj": {
               "projectPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ex1.Domain\\ex1.Domain\\ex1.Domain.csproj"
+            },
+            "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ex1.Data\\ex1.Data.csproj": {
+              "projectPath": "D:\\code\\github\\efcore\\Example 1\\implement\\ex1\\ex1.Data\\ex1.Data.csproj"
             }
           }
         }
