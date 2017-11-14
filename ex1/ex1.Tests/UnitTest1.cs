@@ -25,7 +25,7 @@ namespace ex1.Tests
 
         public UnitTest1()
         {
-            string dbName = "Adding_New_Companies";
+            string dbName = "CompaniesDB";
             _options = new DbContextOptionsBuilder<Ex1DataContext>().UseInMemoryDatabase(databaseName: dbName).Options;
             SeedInMemoryStore(dbName);
         }

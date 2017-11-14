@@ -30,7 +30,7 @@ namespace ex1.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-
+                //optionsBuilder.UseSqlServer(Configuration.GetConnectionString("Ex1SqlConnection")));
             }
             optionsBuilder.UseLoggerFactory(MyLoggerFactory);
             //              .UseSqlServer(connectionString);
